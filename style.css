@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: linear-gradient(161deg, #F9F0B7, #F2EEC9, #BDDFD7, #95D8DD, #62CBD7, #BDBAC5, #CCAEBA);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.form-container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 170px auto;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background: rgba(252, 251, 251, 0.2);
+    background-image: linear-gradient(to bottom left, #ECEBD7, #E4EBE3, #E6EFF2, #DBE8EC, #AEDCE2, #80D1DC, #5EC5D1);
+}
+
+form {
+    padding: 50px;
+}
+
+form .input-container {
+    position: relative;
+    margin: 25px 0;
+}
+
+.input-container input {
+    font-size: 15px;
+    color: #4e504e;
+}
+
+.image {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #3891A8;
+    opacity: 0.8;
+    left: calc(50% - 40px);
+    top: -8%;
+}
+
+form h3 {
+    color: #878787;
+    font-size: 30px;
+    text-align: center;
+    margin: 1px 0;
+}
+
+form .input-container input,
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background: #F0F7EE;
+    padding: 0 55px 0 55px;
+}
+
+form input[type="submit"] {
+    border: 0;
+    background: #3891A8;
+    color: #F0F7EE;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+form .input-container input::placeholder {
+    color: #bebebe;
+    font-size: 18px;
+}
+
+.image svg {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    color: #D2F2FA;
+}
+
+.input-container svg {
+    left: 15px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: calc(50% - 15px);
+    color: #8D918B;
+}
+
+.options-container .checkbox-container,
+.options-container a {
+    display: inline-block;
+    width: 50%;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+a {
+    text-align: right;
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.footer {
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.footer a {
+    font-weight: bold;
+}
